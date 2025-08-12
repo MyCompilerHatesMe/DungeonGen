@@ -57,4 +57,10 @@ public class DungeonRoom {
     public TileType getTileType() {
         return this.tileType;
     }
+    public int getCenterX(){
+        return (this.x+this.width)/2;
+    }
+    public int getCenterY(){
+        return (this.x+this.height)/2;
+    }
 }
